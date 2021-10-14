@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Collaborations</title>
+</head>
+
+<body id="body">
+
+
+    <header>
+        <!-- NavBar -->
+        <div class="nav-principal">
+            <nav class="navbar navbar-expand-lg navbar-light my-navbar fixed-top  py-4" id="nav">
+                <div class="container  d-md-flex">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler bg-white" onclick="navBarColor()" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon bg-white"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item hover-nav">
+                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item hover-nav">
+                                <a class="nav-link" href="protocolos/index.html">PROTOCOLS</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    PARTS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item hover-nav">
+                                <a class="nav-link" href="#">HUMAN</a>
+                            </li>
+                            <li class="nav-item hover-nav">
+                                <a class="nav-link" href="#">PRACTICES</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Fin navbar -->
+
+
+        <!-- Banner de Imagenes -->
+
+        <div class="pic-wrapper">
+            <figure class="pic-1">
+            </figure>
+            <figure class="pic-2">
+            </figure>
+            <figure class="pic-3">
+            </figure>
+            <figure class="pic-4">
+            </figure>
+            <div class="fondo-banner ">
+            </div>
+            <div class="text-banner">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row fila-banner">
+                            <div class="team">
+                                <h4 class="title-small text-center text-md-start"><span class="text-white">TEAM</span>
+                                    BOLIVIA
+                                </h4>
+                            </div>
+                            <h1 class="text-center text-md-start text-white titulo-principal">COLLABORATIONS</h1>
+                            <p class="text-white text-white text-sm-center text-md-start" style="font-size: 20px;">
+                                Hispanic Discussion Workshop Organized By IGEM BOLIVIA</p>
+                        </div>
+                    </div>
+
+
+                    <div class=" d-none d-md-block col-md-4">
+                        <img src="Imagenes Design/arsenito.png" class="logo-arsenito" alt="" />
+                    </div>
+                </div>
+            </div>
+    </header>
+
+
+
+    <!-- BOTON FLOTANTE -->
+    <div class="wrapper">
+        <input type="checkbox" />
+        <div class="fab"></div>
+        <div class="fac">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Up"><i
+                    class="fas fa-chevron-up"></i></a>
+            <a type="button" onclick="aleatorio()" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Random Color"><i class="fas fa-random"></i></a>
+            <a onclick="modoNocturno()" id="luna" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Dark Mode"><i class="fas fa-moon"></i></a>
+            <a onclick="modoDia()" id="sol" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sun Mode"><i
+                    class="fas fa-sun"></i></a>
+
+            <a onclick="aumentarLetras()" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Letter ++"><i
+                    class="fas fa-search-plus"></i></a>
+            <a onclick="disminuirLetras()" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Letter --"><i
+                    class="fas fa-search-minus"></i></a>
+        </div>
+    </div>
+
+    <div class="row p-0 m-0">
+        <!-- menu lateral -->
+        <div class="d-none mt-5  col-lg-3 d-md-flex justify-content-center ">
+            <div class="menulateral">
+                <a href="#experimentalDesing" class="box-icon box-icon-select" id="pestania1">
+                    <div class="diviconMenu ">
+                        <img src="2974460.png" alt="" class="iconMenu">
+                    </div>
+                    <div class="text-menu title">
+                        OUR COLLABORATIONS
+                        <br>
+                    </div>
+                </a>
+                <a href="#expectedResult" class="box-icon" id="pestania2">
+                    <div class="diviconMenu">
+                        <img src="2849198.png" alt="" class="iconMenu">
+                    </div>
+                    <div class="text-menu">
+                        Hispanic Discussion<br> Workshop
+                    </div>
+                </a>
+                <a href="#expectedResult" class="box-icon" id="pestania2">
+                    <div class="diviconMenu">
+                        <img src="2723344.png" alt="" class="iconMenu">
+                    </div>
+                    <div class="text-menu">
+                        Handbook <br> “iGEM from Begginers”
+                    </div>
+                </a>
+                <a class="box-icon" id="pestania3">
+                    <div class="diviconMenu">
+                        <img src="colaborateWith.png" alt="" class="iconMenu">
+                    </div>
+                    <div class="text-menu title">
+                        COLLABORATE WITH
+                    </div>
+                </a>
+                <a class="box-icon" id="pestania3">
+                    <div class="diviconMenu">
+                        <img src="entrevistas.png" alt="" class="iconMenu">
+                    </div>
+                    <div class="text-menu">
+                        Interviews with <br> after iGEMers
+                    </div>
+                </a>
+                <a class="box-icon" id="pestania3">
+                    <div class="diviconMenu">
+                        <img src="team.png" alt="" class="iconMenu">
+                    </div>
+                    <div class="text-menu">
+                        iGEM UANL
+                    </div>
+                </a>
+                <a class="box-icon" id="pestania3">
+                    <div class="diviconMenu">
+                        <img src="team.png" alt="" class="iconMenu">
+                    </div>
+                    <div class="text-menu">
+                        iGEM Waterloo
+                    </div>
+                </a>
+                <a class="box-icon" id="pestania3">
+                    <div class="diviconMenu">
+                        <img src="team.png" alt="" class="iconMenu">
+                    </div>
+                    <div class="text-menu">
+                        iGEM Düsseldorf
+                    </div>
+                </a>
+                <a class="box-icon" id="pestania3">
+                    <div class="diviconMenu">
+                        <img src="team.png" alt="" class="iconMenu">
+                    </div>
+                    <div class="text-menu">
+                        iGEM Patras
+                    </div>
+                </a>
+
+
+            </div>
+
+        </div>
+        <!-- end menu lateral -->
+
+        <div class="col-lg-9 p-0">
+            
+            <!-- Hispanic Debate Workshop -->
+            <section class="bg-celeste pb-5">
+                <div class="container px-5 ">
+                    <div class="row">
+                        <div class="col-md-4 flex-column d-flex justify-content-center align-items-center ">
+                            <h2 class="text-verde mb-4">MOTIVACIÓN</h2>
+                            <p><strong class="text-verde"> iGEM Bolivia </strong> began after debates in 2020, where it
+                                emerged
+                                as
+                                a platform for handling controversial issues surrounding synthetic biology that would be
+                                amenable to
+                                supporting differing points of view. In the same year, some iGEMers learned techniques
+                                and tools
+                                necessary for debate thanks to the Debate School.
+                                We have already been able to organize an event at the Latin American level for 2021,
+                                where we
+                                shared knowledge acquired from the previous year. Teachers capable of running a workshop
+                                and
+                                other iGEM teams were invited so that young scientists could learn more about these
+                                tools and be
+                                able to
+                            </p>
+                        </div>
+                        <div class="col-md-8 d-flex justify-content-center my-5">
+                            <!-- slider  -->
+                            <div id="entrevista1" class="carousel slide " style="width: 50%;" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#entrevista1" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#entrevista1" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img1.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img1.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#entrevista1"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#entrevista1"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!-- end slider -->
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="container px-5 my-5">
+                <h2 class="text-verde mb-4">
+                    OBJECTIVE
+                </h2>
+                <p>The main objective of this activity was to encourage young people in Latin America to develop
+                    rhetorical
+                    and critical thinking skills conducive to analyzing controversial topics in synthetic biology,
+                    thereby
+                    enabling them to achieve higher order thought processes based on well-documented information.
+                </p>
+            </div>
+
+
+
+            <section class="bg-celeste py-5">
+                <div class="container  px-5">
+                    <h2 class="text-verde mb-4">ABOUT THE EVENT</h2>
+                    <p>To start with this great event, we required the help of other teams, who responded to our call
+                        and with
+                        whom we could work over a month to meet common objectives and communicate science differently
+                        through
+                        debate. iGEM Ecuador, iGEM FCB - UANL and iGEM UAM.</p>
+                    <div class="row mt-5">
+                        <!-- EQUIPO -->
+                        <h2 class="text-center text-verde mb-4">TEAMS</h2>
+                        <div class="col-sm-6 col-lg-4 pt-5  d-flex justify-content-center mb-5">
+                            <img src="collaboration taller de debate/T--Bolivia--collaborations-img2.1.png"
+                                class="teamHover" alt="">
+                        </div>
+                        <div class="col-sm-6 mb-5 col-lg-4 d-flex justify-content-center mb-5"><img
+                                src="collaboration taller de debate/T--Bolivia--collaborations-img3.png"
+                                class="teamHover" alt=""></div>
+                        <div class="col-sm-6 col-lg-4 d-flex justify-content-center mb-5"><img
+                                src="collaboration taller de debate/T--Bolivia--collaborations-img4.png"
+                                class="teamHover" alt=""></div>
+
+
+                    </div>
+                    <br><br>
+                    <div class="row ">
+                        <!-- INSTRUCTORES -->
+                        <h2 class="text-center text-verde mb-4">INSTRUCTORS</h2>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-8">
+                                <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img5.png"
+                                    alt="" class="w-100">
+
+                            </div>
+                        </div>
+                    </div>
+
+            </section>
+
+
+            <section>
+                <div class="container">
+                    <div class="row d-flex justify-content-center align-items-center ">
+                        <div
+                            class="col-lg-4 d-flex flex-column justify-content-center align-items-center card-bg-celeste ">
+                            <p class="">We began by holding three workshops in which all participants were able to
+                                interact and
+                                learn
+                                the
+                                necessary tools for a debate: </p>
+                            <p>
+                                "Argumentation and Counterargumentation" was taught by Antonio Zarate Ramos, who covered
+                                the
+                                bases
+                                of argumentation and dialectics. This workshop closed with a very dynamic and
+                                interactive
+                                activity
+                                where the participants practiced what they had learned.
+                            </p>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row d-flex justify-content-center m-0 p-0">
+                                <!-- slider  -->
+                                <div id="slider1" class="carousel slide my-slider" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#slider1" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#slider1" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#slider1" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img6.a.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img6.b.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img6.c.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#slider1"
+                                        data-bs-slide="prev">
+                                        <i class="fa fa-chevron-left text-verde"></i>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#slider1"
+                                        data-bs-slide="next">
+                                        <i class="fa fa-chevron-right text-verde"></i>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <!-- end slider -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section>
+
+                <div class="container px-5">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-lg-8">
+                            <div class="row d-flex justify-content-center m-0 p-0">
+                                <!-- slider  -->
+                                <div id="sld2" class="carousel slide my-slider" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#sld2" data-bs-slide-to="0" class="active"
+                                            aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#sld2" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#sld2" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img7.a.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img7.b.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img7.c.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#sld2"
+                                        data-bs-slide="prev">
+                                        <i class="fa fa-chevron-left text-verde"></i>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#sld2"
+                                        data-bs-slide="next">
+                                        <i class="fa fa-chevron-right text-verde"></i>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <!-- end slider -->
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 d-flex flex-column justify-content-center align-items-center card-bg-verde">
+                            <br>
+                            <p>"Roles of Judges and Zigzag Format", taught by José Luis Feliciano Chipana, is a very
+                                important topic when it comes to participating as a judge or speaker in a debate. The
+                                segment ended with a mock debate in this format.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container px-5">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div
+                            class="col-lg-4 d-flex flex-column justify-content-center align-items-center card-bg-celeste">
+                            <br><br>
+                            <p>"If knowledge is Controversial, do we debate?". Together with MSc. Gabriela Rivadeneira
+                                Caballero tutor of iGEM BOLIVIA, who spoke to us about how to convey our ideas regarding
+                                the position of an issue.</p>
+                            <p style="font-weight: bold;"> " ... we must notice the culture, be able to transmit
+                                scientific knowledge to a target
+                                group, we will see that knowledge becomes controversial and we have the challenge of
+                                being able to transmit this scientific knowledge in a friendly way.”</p>
+                            <div class="row d-flex justify-content-end align-items-end p-0 m-0">
+                                <p class="text-end">---MSc. Gabriela Rivadeneira.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="row d-flex justify-content-center m-0 p-0">
+                                <div id="slider3" class="carousel slide my-slider" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#slider3" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#slider3" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#slider3" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img8.a.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img8.b.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img8.c.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#slider3"
+                                        data-bs-slide="prev">
+                                        <i class="fa fa-chevron-left text-verde"></i>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#slider3"
+                                        data-bs-slide="next">
+                                        <span class="visually-hidden">Next</span>
+                                        <i class="fas fa-chevron-right text-verde"></i>
+                                    </button>
+                                </div>
+                                <!-- end slider -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <br> <br>
+                    <!-- slider  -->
+
+                </div>
+            </section>
+
+
+            <section class="bg-celeste">
+                <div class="container px-5 py-5 ">
+                    <h2 class="text-verde mb-4">ABOUT THE TOURNAMENT</h2>
+                    <p>The Debate Tournament was held on Saturday June 19th and Sunday June 20th, where a total of eight
+                        teams participated. From this first tournament we obtained the semifinalists who debated the
+                        following motions:</p>
+                    <div class="row ">
+                        <div
+                            class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center flex-column ">
+                            <div class="lista mb-5">
+                                <div class="lista-item">
+                                    <i class=" text-verde fas fa-check mx-4" style="font-size: 18px;"></i>
+                                    <p>Should Synthetic Biology be restricted for the precaution of bioterrorism? iGEM
+                                        Bolivia as affirmative and FCB-UANL as negative.</p>
+                                </div>
+                                <div class=" lista-item">
+                                    <i class=" text-verde  fas fa-check mx-4" style="font-size: 18px;"></i>
+                                    <p>Is it ethical to use aborted human embryos for experiments? UAM participated as
+                                        affirmative and SYNTHETIC BIOBOTS as negative.</p>
+                                </div>
+                            </div>
+
+                            <!-- Slider pdf -->
+                            <div id="slider4" class="carousel slide my-carousel" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#slider4" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#slider4" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#slider4" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img9.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img9.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#slider4"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#slider4"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!-- end slider -->
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center mt-3 ">
+                            <div class="row mt-5">
+                                <iframe
+                                    src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/PDF/T--Bolivia--collaborations_pdf1.pdf"
+                                    width="100%" height="500px">
+                                </iframe>
+
+                                <div class="boton mt-md-5 ">
+                                    <a class="dedcription-btn"
+                                        href="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/PDF/T--Bolivia--collaborations_pdf1.pdf">
+                                        <span class="name-descripeion">Scheduke of the Tournament</span>
+                                        <div class="btn-icon descarga">
+                                            <i class="fas fa-download"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </section>
+
+
+            <section class="">
+                <div class="container px-5 mt-5">
+                    <h2 class="text-verde mb-4">GRAND FINALE</h2>
+                    <div class="row">
+                        <p>In this final event, we had two Mexican teams: iGEM UAM team represented by Andrea Sánchez
+                            and Angel Emanuel Martínez Flores and FCB - UANL team formed by Jorge Alberto Uribe and
+                            Julissa Janeth García, who competed for the first place.</p>
+                        <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
+                            <!-- slider  -->
+                            <div id="slider4" class="carousel slide my-carousel2" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#slider4" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#slider4" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#slider4" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img10.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img10.b.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#slider4"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#slider4"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!-- end slider -->
+                        </div>
+
+
+
+
+
+                        <p class="my-5">The debate allowed for a broad exchange of ideas, questions, rebuttal and
+                            defense of arguments between the two teams. The debate was quite intense and ended,
+                            declaring the FCB-UANL team the winner of the 2021 Hispanic Debate Tournament.This event was
+                            sponsored by Allbiotech which awarded the winning team with a totally free course.</p>
+                    </div>
+                    <div class="row d-flex justify-content-center m-0 p-0">
+                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img11.jpeg"
+                            alt="" class=" img my-slider ">
+                    </div>
+                    <p class="my-5">
+                        This activity could be seen thanks to iGEM TV for Latin America, where the impact of this event
+                        on the participating iGEMers was shown and where the winners shared their experience, too. In
+                        addition, we inspire iGEM UAM to debate with radical movements, such as GreenPeace, to bring
+                        controversial issues around Synthetic Biology.
+                    </p>
+
+                    <div class="row d-flex justify-content-center m-0 p-0">
+
+
+
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12 d-flex justify-content-center">
+                                <!-- slider  -->
+                                <div id="img12" class="carousel slide" data-bs-ride="carousel" style="width: 70%;">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#img12" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#img12" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#img12" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img12" data-bs-slide-to="3"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img12" data-bs-slide-to="4"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img12" data-bs-slide-to="5"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img12" data-bs-slide-to="6"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img12.a.jpeg"
+                                                class="d-block w-100 h-50" alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img12.b.jpeg"
+                                                class="d-block w-100 h-50" alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img12.c.jpeg"
+                                                class="d-block w-100 h-50" alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img12.d.jpeg"
+                                                class="d-block w-100 h-50" alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img12.e.jpeg"
+                                                class="d-block w-100 h-50" alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img12.f.jpeg"
+                                                class="d-block w-100 h-50" alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Imagenes/T--Bolivia--collaborations-img12.g.jpeg"
+                                                class="d-block w-100 h-50" alt="...">
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#img12"
+                                        data-bs-slide="prev">
+                                        <span class="visually-hidden">Previous</span>
+                                        <i class="fa fa-chevron-left text-verde"></i>
+
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#img12"
+                                        data-bs-slide="next">
+                                        <i class="fa fa-chevron-right text-verde"></i>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <!-- end slider -->
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <p class="mt-4">If knowledge is Controversial, do we debate?"Together with MSc. Gabriela Rivadeneira
+                        Caballero tutor of iGEM BOLIVIA, who spoke to us about how to convey our ideas regarding the
+                        position of
+                        an issue. He mentioned that </p>
+
+                    <p style="font-weight: bold;">" ... we must notice the culture, be able to transmit scientific
+                        knowledge to a target group, we
+                        will see
+                        that knowledge becomes controversial and we have the challenge of being able to transmit this
+                        scientific
+                        knowledge in a friendly way.”</p>
+                    <div class="row d-flex justify-content-end align-items-end p-0 m-0">
+                        <p class="text-end">---MSc. Gabriela Rivadeneira.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section>
+                <div class="container px-5">
+
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-md-6 ">
+                            <video
+                                src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Videos/T--Bolivia--collaborations_video1.mp4"
+                                class="w-100" controls poster="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/Videos/bannerVideo1.png"></video>
+                        </div>
+                        <div class="col-md-6">
+                            <iframe
+                                src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/PDF/T--Bolivia--collaborations_pdf3.pdf"
+                                width="100%" height="500px">
+                            </iframe>
+
+                        </div>
+                        <div class="row m-0 p-0">
+                            <div class="offset-md-3 col-md-8">
+                                <div class="boton mt-md-5 ">
+                                    <a class="dedcription-btn"
+                                        href="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/1. HISPANIC DEBATE WORKSHOP/PDF/T--Bolivia--collaborations_pdf3.pdf">
+                                        <span class="name-descripeion">Infography of Debate Tournament</span>
+                                        <div class="btn-icon descarga">
+                                            <i class="fas fa-download"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-celeste">
+                <div class="container mt-5 px-5 py-5">
+                    <h2 class="text-verde mb-4">RESULTS</h2>
+                    <p>This activity could be seen thanks to iGEM TV for Latin America, where the impact of this event
+                        on the
+                        participating iGEMers was shown and where the winners shared their experience, too. In addition,
+                        we
+                        inspire iGEM UAM to debate with radical movements, such as GreenPeace, to bring controversial
+                        issues
+                        around Synthetic Biology.</p>
+                </div>
+            </section>
+
+            <section>
+                <div class="container px-5">
+                    <h2 class="text-verde mb-4">ORGANIZING TEAM AND SUPPORT TEAM</h2>
+                    <p>All this would not have been possible without the help of those who participated in this great
+                        event by contributing their ideas and time to make it a success.</p>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+                            <!-- slider  -->
+
+                            <div id="sldf" class="carousel slide" data-bs-ride="carousel" style="width: 70%;">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="3"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="collaboration taller de debate/T--Bolivia--collaborations-img12.a.png"
+                                            class="d-block w-100 h-50" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="collaboration taller de debate/T--Bolivia--collaborations-img12.b.png"
+                                            class="d-block w-100 h-50" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="collaboration taller de debate/T--Bolivia--collaborations-img12.c.png"
+                                            class="d-block w-100 h-50" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="collaboration taller de debate/T--Bolivia--collaborations-img12.e.png"
+                                            class="d-block w-100 h-50" alt="...">
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#sldf"
+                                    data-bs-slide="prev">
+                                    <span class="visually-hidden">Previous</span>
+                                    <i class="fa fa-chevron-left text-verde"></i>
+
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#sldf"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!-- end slider -->
+                        </div>
+                        <div class="col-xs-12 col-md-5 pt-5">
+                            <p>Although the workshop and tournament lasted about a month, organization of the event took
+                                months of hard work. We thank the iGEM teams who dedicated many working hours, provided
+                                their social media platforms, helped us with the calendar and most of all provided us
+                                with an amazing workplace where we made new friends.</p>
+                        </div>
+                        <p class=" pt-5">We also want to thank the speakers and judges who helped us supervise the
+                            event, always
+                            giving us continuous feedback so that all participants can improve their debate skills.</p>
+
+                        <p>We also want to thank the speakers and judges who helped us supervise the event and always
+                            provided us with continuous feedback. Thank all the participants who gave their time
+                            selflessly to learn more about these types of tools and skills to defend their positions in
+                            a more informed way. Finally, we thank all of the iGEM Bolivia staff who helped us with the
+                            workshops, and in the collection of information throughout the event - they are exceptional
+                            people and we are truly grateful for them!</p>
+
+
+                        <div class="row m-0 p-0">
+                            <div class="offset-md-3 col-md-8">
+                                <div class="boton mt-md-5 ">
+                                    <a class="dedcription-btn" href="#">
+                                        <span class="name-descripeion">Debate Tournament Extenso</span>
+                                        <div class="btn-icon descarga">
+                                            <i class="fas fa-download"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- end primera seccion -->
+
+
+
+            <!-- Segunda seccion -->
+
+            <section class="bg-celeste">
+                <div class="container py-5 px-5">
+                    <h2 class="text-verde mb-4">HISPANIC DISCUSSION WORKSHOP ORGANIZED BY iGEM BOLIVIA</h2>
+                    <div class="row">
+                        <div class="col-md-4 flex-column d-flex justify-content-center align-items-center ">
+                            <h2 class="text-verde mb-4">iGEM FOR BEGINNERS</h2>
+                            <p>All teams participating in the iGEM competition know that building a solid project is a great challenge, especially when considering all items that must be covered and interconnected to satisfy requirements of the competition. This becomes increasingly difficult for first time participants in the competition. To alleviate these challenges, iGEM Bolivia is designing a guide for building a successful project that meets iGEM requirements. This is our contribution for the next generation of iGEM teams and the aim is to motivate more teams to participate in the competition. In our guide we will describe the strategy that iGEM Bolivia used to build its project, which includes how to: allocate time; find the right people to lead the different areas; recruit students and volunteers who want to learn and communicate science, and design a project that has highly beneficial societal impact in both the local community as well as in those of other countries.
+                            </p>
+                        </div>
+                        <div class="col-md-8 d-flex justify-content-center my-5">
+                            <!-- slider  -->
+                            <div id="other1" class="carousel slide " style="width: 50%;" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#other1" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#other1" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img1.a.jpeg"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img1.b.jpeg"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#other1"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#other1"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!-- end slider -->
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section>
+                <div class="container px-5">
+                    <h2 class="text-verde mb-4">OBJECTIVE</h2>
+                    <p>The objective of this guide, “iGEM for Beginners”, will help to form teams that will attend future iGEM competitions in an effective and efficient way by taking into account all of the steps that the iGEM foundation requires to win a gold medal.</p>
+                </div>
+            </section>
+            
+
+            <section class="bg-celeste">
+                <div class="container px-5 py-5">
+                    <h2 class="text-verde mb-4">EXPECTED OUTCOME</h2>
+                    <p>
+                        What do you hope to find in the guide, "iGEM for Beginners"? In addition to the strategy to build your team, this guide has tips, experiences and anecdotes that the current iGEM bolivia team want to share with those of the future. The adversities that future teams may encounter along the way will also be taken into account. Here we will provide suggestions so that these future teams can solve problems that are likely to be encountered.
+                    </p>
+                    <p>
+                        To overcome the language barrier, we think it would be very useful for the guide to be accessible in different languages. As iGEM Bolivia is a new team, we ask the iGEM ambassadors to provide us with their feedback, as these tips are also intended to be part of the guide. We hope that the generated guide will become a valuable tool that imparts a positive impact on the iGEM teams of future generations.
+                    </p>
+                </div>
+            </section>
+
+            
+
+            <section class="">
+                <div class="container px-5 py-5">
+                    <h2 class="text-verde mb-4">HOW DID WE BUILD THE GUIDE?</h2>
+                    <p>
+                        We began by generating an outline for the guide based on the experiences shared with us by more experienced teams since iGEM Bolivia is a new team this year. We began by organizing meetings to share anecdotes and useful tips. This involved sending out a questionnaire to discover teams that were interested in helping us on our mission. After explaining the idea of building a guide to the interested teams, we then held meetings with eleven experienced teams that included Paris BME, NJU-CHINA, TEC-Costa Rica and Brazil, among others
+                    </p>
+                    <div class="row d-flex justify-content-center m-0 p-0 ">
+                        <div class="col-lg-8 ">
+                            
+                                <!-- slider  -->
+                                <div id="other2" class="carousel slide my-slider" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#other2" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#other2" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#other2" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img2.a.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img2.b.png"
+                                                class="d-block w-100" alt="...">
+    
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img2.c.png"
+                                                class="d-block w-100" alt="...">
+    
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#other2"
+                                        data-bs-slide="prev">
+                                        <i class="fa fa-chevron-left text-verde"></i>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#other2"
+                                        data-bs-slide="next">
+                                        <i class="fa fa-chevron-right text-verde"></i>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                           
+                        </div>
+                    </div>
+                    <p class="my-4">These meetings were held in different languages (English, Portuguese and Spanish) so as to enable better communication with the teams. In these meetings we asked questions addressing past and present experiences on topics that included the significance of iGEM to each respective team, strategies for team assembly, and how to coordinate between different work areas (laboratory, human practices, integrated human practices, collaborations, scientific communication and wiki). Additionally, we received recommendations in each of these areas and also gathered information for fundraising ideas.</p>
+                   
+               
+
+                <div class="row d-flex justify-content-center m-0 p-0">
+                    <div class="col-lg-8 ">
+                        
+                            <!-- slider  -->
+                            <div id="other3" class="carousel slide my-slider" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#other3" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#other3" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#other3" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img3.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img3.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img3.c.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#other3"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#other3"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                       
+                    </div>
+                </div>
+
+                <p class="my-4">Each team provided very useful answers that were invaluable for beginning the process of writing the iGEM team guide. In summary, our conclusions from these meetings included: 1) it is necessary to organize time and comply with deadlines; 2) Communication within teams is essential to ensure a more productive work environment; 3) Taking initiative is required for iGEMers to be successful in designing a project that is likely to have high impact.</p>
+
+                <div class="row d-flex justify-content-center m-0 p-0">
+                    <div class="col-lg-8 ">
+                        
+                            <!-- slider  -->
+                            <div id="other4" class="carousel slide my-slider" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#other4" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#other4" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#other4" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                  
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img4.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img4.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img4.c.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#other4"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#other4"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                       
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <section class="bg-celeste">
+                <div class="container py-5 px-5">
+                    <div class="row">
+                        <h2 class="text-verde mb-4">TEMAS</h2>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img5.png" class="w-100"    alt="">
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img6.png" class="w-100"    alt="">
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img7.png" class="w-100"    alt="">
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img8.png" class="w-100"    alt="">
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img9.png" class="w-100"    alt="">
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img10.png" class="w-100"    alt="">
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img11.png" class="w-100"    alt="">
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img12.png" class="w-100"    alt="">
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/1. OUR COLLABORATIONS/2. HANDBOOK _iGEM FROM BEGGINERS_/Imagenes/T--Bolivia--collaborations-img13.png" class="w-100"    alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+<!-- end segunda sesccion -->
+
+
+            <!-- Tercera Secciion -->
+            <section>
+                <div class="container px-5">
+                    <h2 class="text-verde mb-4">HOW WE STARTED?</h2>
+                    <p>Being our first participation, we decided to contact people who could guide our way within the
+                        competition, resolve our doubts and give us advice to carry out our ideas. That is why we turned
+                        to Heber Torres and Daniel Dominguez.</p>
+                </div>
+            </section>
+
+            <section class="bg-celeste">
+                <div class="container py-5 px-5">
+                    <div class="row d-flex justify-content-center align-items-center ">
+                        <div
+                            class="col-lg-4 d-flex flex-column justify-content-center align-items-center card-bg-celeste ">
+                            <h2 class="text-verde mb-4">INTERVIEW WITH HEBER TORRES</h2>
+
+                            <p class="">Heber Torres, Ambassador for Latin America for After iGEM, carried out a project
+                                on heavy metals in 2012; We met him and solved doubts about the competition, and the
+                                design of our arsenic biosensor. He gave us practical advice and the necessary
+                                bibliography.</p>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row d-flex justify-content-center m-0 p-0">
+                                <!-- slider  -->
+                                <div id="entrevista1" class="carousel slide my-slider" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#entrevista1" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#entrevista1" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#entrevista1" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img1.a.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img1.b.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img1.c.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#entrevista1"
+                                        data-bs-slide="prev">
+                                        <i class="fa fa-chevron-left text-verde"></i>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#entrevista1"
+                                        data-bs-slide="next">
+                                        <i class="fa fa-chevron-right text-verde"></i>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <!-- end slider -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Entrevistta 2 -->
+            <section>
+                <div class="container py-5 px-5">
+                    <div class="row d-flex justify-content-center align-items-center ">
+
+                        <div class="col-lg-8">
+                            <div class="row d-flex justify-content-center m-0 p-0">
+                                <!-- slider  -->
+                                <div id="entrevista2" class="carousel slide my-slider" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#entrevista2" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#entrevista2" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#entrevista2" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img2.a.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img2.b.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img2.c.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#entrevista2"
+                                        data-bs-slide="prev">
+                                        <i class="fa fa-chevron-left text-verde"></i>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#entrevista2"
+                                        data-bs-slide="next">
+                                        <i class="fa fa-chevron-right text-verde"></i>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <!-- end slider -->
+                            </div>
+                        </div>
+
+                        <div
+                            class="col-lg-4 d-flex flex-column justify-content-center align-items-center card-bg-celeste ">
+                            <h2 class="text-verde mb-4">INTERVIEW WITH DANIEL DOMINGUEZ</h2>
+
+                            <p class="">Daniel Dominguez, co-founder of AllBiotech, has vast experience in scientific
+                                divulgation and has seen many projects within iGEM. He helped us land our ideas for the
+                                Collaboration area projects and make it desirable to other iGEM teams.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- en entrevista2 -->
+
+
+            <section class="bg-celeste">
+                <div class="container px-5 py-5">
+                    <h2 class="text-verde mb-4">COLLABORATION WITH iGEM UANL</h2>
+                    <p>The UANL team has been participating in this competition for 10 years. That is why they helped us
+                        to solve our doubts about participating in iGEM from the elaboration of the project to its
+                        presentation before the judges.</p>
+
+                    <div class="row d-flex justify-content-center m-0 p-0">
+                        <!-- slider  -->
+                        <div class="col-7 ">
+                            <div id="uanl" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#uanl" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#uanl" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#uanl" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#uanl" data-bs-slide-to="3"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img3.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img3.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img3.c.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img3.d.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#uanl"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#uanl"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- end slider -->
+                    </div>
+                    <div class="mt-4">
+
+                        <p>They were one of the teams with which we collaborated in the organization of <strong
+                                class="text-verde">the iGEM 2021 Hispanic Workshop and Tournament</strong> , their
+                            representatives obtained first place in the Tournament.</p>
+                        <p>We were able to collaborate in one of their "Fire Detective" activities, where we were able
+                            to talk about the impact of our small actions on forest fires and we also talked a bit about
+                            our culture and the day to day life of iGEM teams in Latin America.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section>
+                <div class="container px-5">
+                    <h2 class="text-verde mb-4">COLLABORATION WITH WATERLOO iGEM</h2>
+                    <p>We had the opportunity to communicate with this Canadian team, which already participated in the
+                        iGEM competition in past years (2014-2021) presenting a project related to heavy metals that
+                        pollute water, REMINE.</p>
+                    <p>In the first meeting we were able to talk about the different areas of work we have in iGEM, with
+                        the aim of dispelling doubts and asking for some advice to continue with the work. With this
+                        meeting we were able to learn more about the project presented and how to solve some
+                        difficulties that we had and were similar to this team.</p>
+
+                    <div class="row d-flex justify-content-center m-0 p-0">
+                        <!-- slider  -->
+                        <div class="col-7 ">
+                            <div id="waterloo" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#waterloo" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#waterloo" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#waterloo" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img4.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img4.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img4.c.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#waterloo"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#waterloo"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- end slider -->
+                    </div>
+
+                    <p class="mt-4">In the second meeting, we had the ¨wiki¨ section of both teams, since last year they
+                        won the Best Wiki category. The team chose to ask pertinent questions to do a good job on our
+                        wiki. Waterloo gave us useful answers along with their experiences and advice.</p>
+                </div>
+            </section>
+
+
+            <!-- COLLABORATION WITH IGEM DÜSSELDORF  -->
+            <section class="bg-celeste">
+                <div class="container px-5 py-5">
+                    <h2 class="text-verde mb-4">COLLABORATION WITH IGEM DÜSSELDORF</h2>
+                    <p>With iGEM Düsseldorf we were able to generate a collaboration by making a card that reflected our
+                        work. Despite suffering some mishaps in sending our cards, we were able to share our work with
+                        other teams around the world and also receive the cards back virtually. It was exciting to have
+                        been one of the few teams from Latin America to be able to participate and share our project
+                        with more teams.</p>
+
+                    <div class="row d-flex justify-content-center m-0 p-0">
+                        <!-- slider  -->
+                        <div class="col-7 ">
+                            <div id="dusse" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#dusse" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#dusse" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#dusse" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#dusse" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img5.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img5.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img5.c.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img5.d.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#dusse"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#dusse"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- end slider -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- COLLABORATION WITH IGEM PATRAS  -->
+
+            <section>
+                <div class="container px-5">
+                    <h2 class="text-verde mb-4">COLLABORATION WITH IGEM PATRAS</h2>
+                    <p>iGEM Bolivia, along with many other teams, participated in the activity organized by iGEM Patras.
+                        This activity was held in commemoration of women scientists. For this we had to choose a
+                        representative scientist for our team, it was Rosalind Franklin. In addition, we share photos of
+                        the iGEM Bolivia women's team.</p>
+                    <p>Undoubtedly, this activity allows us to highlight the importance and impact that women have in
+                        science, so we did not hesitate to collaborate in this activity.</p>
+
+                    <div class="row d-flex justify-content-center m-0 p-0">
+                        <!-- slider  -->
+                        <div class="col-7 ">
+                            <div id="patras" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#patras" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#patras" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img6.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Collaborations Wiki Oficial/Collaborations Wiki Oficial/2. OTHERS COLLABORATIONS/Imágenes/T--Bolivia--collaborations-img6.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#patras"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#patras"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- end slider -->
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+<script>
+    window.addEventListener('scroll', (e) => {
+        let y = window.scrollY;
+        if (y >= 500) {
+            document.getElementById('nav').classList.add('my-nav')
+        } else {
+            document.getElementById('nav').classList.remove('my-nav')
+
+        }
+    })
+</script>
+<script src="../main.js"></script>
+
+</html>
