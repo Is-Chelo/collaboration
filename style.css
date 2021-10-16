@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
 :root {
-    --azul   : #00507D;
-    --celeste: #00C7DC;
-    --morado : #7B0068;
-    --verde  : #6DC72A;
-    --bg-azul: #6ec72a0a;
-    --tamanioletras :16px;
-    --bg-celeste :#00c6dc25;
+    --azul         : #00507D;
+    --celeste      : #00C7DC;
+    --morado       : #7B0068;
+    --verde        : hsl(94, 65%, 47%);
+    --bg-azul      : #6ec72a0a;
+    --tamanioletras: 16px;
+    --bg-celeste   : #00c6dc25;
 }
 
 body {
@@ -32,16 +30,19 @@ section {
 p {
     font-family: 'Open Sans', sans-serif;
     line-height: 30px;
-    /* text-align: center; */
-    font-size: var(--tamanioletras);
+    font-size  : var(--tamanioletras);
 }
-li{
+
+.lista {
     font-size: var(--tamanioletras);
 
 }
-h2{
+
+h2 {
     text-align: center;
+    font-family: 'Righteous', cursive;
 }
+
 .text-morado {
     color: var(--morado);
 }
@@ -78,25 +79,25 @@ figure {
 
 .pic-1 {
     opacity        : 1;
-    background     : url('https://5.imimg.com/data5/CG/NA/MY-9674142/partnership-firm-registration-500x500.jpg') no-repeat center center;
+    background     : url('https://2021.igem.org/wiki/images/3/3f/T--Bolivia--BannerCollaborations.png') no-repeat center center;
     background-size: cover;
 }
 
 .pic-2 {
     animation-delay: 6s;
-    background     : url('https://5.imimg.com/data5/CG/NA/MY-9674142/partnership-firm-registration-500x500.jpg') no-repeat center center;
+    background     : url('https://2021.igem.org/wiki/images/3/3f/T--Bolivia--BannerCollaborations.png') no-repeat center center;
     background-size: cover;
 }
 
 .pic-3 {
     animation-delay: 12s;
-    background     : url('https://www.fastcapital360.com/wp-content/uploads/2020/06/hang-shake.jpg') no-repeat center center;
+    background     : url('https://2021.igem.org/wiki/images/3/3f/T--Bolivia--BannerCollaborations.png') no-repeat center center;
     background-size: cover;
 }
 
 .pic-4 {
     animation-delay: 18s;
-    background     : url('https://www.fastcapital360.com/wp-content/uploads/2020/06/hang-shake.jpg') no-repeat center center;
+    background     : url('https://2021.igem.org/wiki/images/3/3f/T--Bolivia--BannerCollaborations.png') no-repeat center center;
     background-size: cover;
 }
 
@@ -131,7 +132,7 @@ figure {
 .fondo-banner {
     width           : 100vw;
     height          : 100%;
-    background-image: linear-gradient(to right, var(--verde), var(--azul));
+    background-image: linear-gradient(to right, var(--verde), transparent);
     opacity         : 0.4;
     position        : absolute;
     padding-bottom  : 100px;
@@ -264,16 +265,13 @@ figure {
 /* MENU LATERAL ICONOs */
 
 .menulateral {
-   
-    margin-left    : 10px;
+
     position       : sticky;
     top            : 150px;
     border-right   : 5px solid;
     border-color   : var(--verde);
-    height         : 700px;
+    max-height     : 450px;
     display        : flex;
-    justify-content: center;
-    align-items    : center;
     flex-direction : column;
     width          : 250px;
 }
@@ -311,13 +309,26 @@ figure {
 
 }
 
+.iconSubMenu{
+    width : 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
 .text-menu {
     text-transform: uppercase;
     cursor        : pointer;
-    /* font-family: 'Open Sans', sans-serif; */
-    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    
 }
-.title{
+.text-submenu {
+    font-size: 14px;
+    cursor        : pointer;
+    color: black;
+}
+
+.title {
     font-family: 'Righteous', cursive;
 }
 
@@ -327,6 +338,23 @@ figure {
     color: var(--verde);
 }
 
+.my-carousel {
+    width: 70%;
+}
+
+.my-carousel2 {
+    width: 40%;
+}
+
+
+@media(max-width:990px){
+    .menulateral{
+        display: none;
+    }
+    .my-carousel2{
+        width: 100%;
+    }
+}
 
 
 /* MENU 4 */
@@ -361,26 +389,26 @@ figure {
 }
 
 .card-bg-verde {
-    padding         : 30px;
-    font-size       : 18px;
-    box-shadow:     2px 4px 10px 2px #6ec72a4b;
+    padding      : 30px;
+    font-size    : 18px;
     border-radius: 10px;
+    background-color: var(--bg-celeste);
 }
 
 .card-bg-azul {
     background-color: #004f7d85;
     padding         : 18px;
-    font-size: 20px
+    font-size       : 20px
 }
 
 .card-bg-celeste {
     
     border-radius: 10px;
-    padding-top: 50px;
-    padding         : 30px;
-    font-size       : 18px;
-    box-shadow:     2px 4px 10px 7px var(--bg-celeste);
-    
+    padding-top  : 50px;
+    padding      : 30px;
+    font-size    : 18px;
+    background-color: var(--bg-celeste);
+
 }
 
 .lista {
@@ -484,13 +512,6 @@ a:hover {
     width: 90%;
 }
 
-.my-carousel {
-    width: 70%;
-}
-
-.my-carousel2 {
-    width: 40%;
-}
 
 
 .img {
@@ -519,7 +540,7 @@ a:hover {
     margin-top     : 6rem;
     bottom         : 50px;
     right          : 50px;
-    z-index: 100;
+    z-index        : 100;
 }
 
 .wrapper .fab {
@@ -716,12 +737,13 @@ a:hover {
     }
 }
 
-@media(max-width:425px){
-    .name-descripeion{
+@media(max-width:425px) {
+    .name-descripeion {
         font-size: 12px;
     }
 }
 
-.fa-chevron-right, .fa-chevron-left{
+.fa-chevron-right,
+.fa-chevron-left {
     font-size: 40px;
 }
